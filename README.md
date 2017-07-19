@@ -9,7 +9,7 @@ Package source(not the upstream source):
 * https://github.com/zhsj/process-cpp
 * https://github.com/zhsj/properties-cpp
 
-Disclaim
+# Disclaim
 
 These packages are unofficial. If you want support from the Anbox developers, you should follow the official guide on [anbox.io](https://anbox.io) and use snappy to install Anbox.
 
@@ -17,13 +17,13 @@ These packages are unofficial. If you want support from the Anbox developers, yo
 
 First install deb packages.
 
-sudo wget -O /etc/apt/trusted.gpg.d/zhsj.gpg https://ftp.ustclug.org/~zsj/anbox/zhsj.gpg
-echo "deb [arch=amd64] https://ftp.ustclug.org/~zsj/anbox stretch main" |sudo tee /etc/apt/sources.list.d/anbox.list
-sudo apt update && sudo apt install anbox
+* sudo wget -O /etc/apt/trusted.gpg.d/zhsj.gpg https://ftp.ustclug.org/~zsj/anbox/zhsj.gpg
+* echo "deb [arch=amd64] https://ftp.ustclug.org/~zsj/anbox stretch main" |sudo tee /etc/apt/sources.list.d/anbox.list
+* sudo apt update && sudo apt install anbox
 
 Now you need to download the Android image.
 
-sudo wget -O /var/lib/anbox/android.img https://build.anbox.io/android-images/2017/07/07/android_2_amd64.img
+* sudo wget -O /var/lib/anbox/android.img https://build.anbox.io/android-images/2017/07/07/android_2_amd64.img
 
 # Start
 
